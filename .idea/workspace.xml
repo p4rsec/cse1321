@@ -4,14 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/phonebill.java" line="57" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e711404-8928-4f12-9fd7-f6db1d0835d6" name="Default Changelist" comment="Added all files for source code for Assignment 3">
-      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/BestDeal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/BestDeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/phonebill.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/phonebill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/phonebill.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/phonebill.java" afterDir="false" />
+    <list default="true" id="6e711404-8928-4f12-9fd7-f6db1d0835d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="FiveDigitPalindrome" value="123" />
-          <entry key="java" value="1144" />
+          <entry key="FiveDigitPalindrome" value="276" />
+          <entry key="java" value="2482" />
           <entry key="txt" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1267" />
+          <entry key="JAVA" value="2758" />
           <entry key="PLAIN_TEXT" value="51" />
         </counts>
       </usages-collector>
@@ -70,20 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="408">
+              <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +80,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome">
+        <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="349">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,9 +101,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/BestDeal.java" />
         <option value="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/phonebill.java" />
-        <option value="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java" />
         <option value="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.java" />
         <option value="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome" />
+        <option value="$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java" />
       </list>
     </option>
   </component>
@@ -206,12 +194,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537756950791</updated>
-      <workItem from="1537756951934" duration="2186000" />
+      <workItem from="1537756951934" duration="5132000" />
     </task>
+    <task id="LOCAL-00001" summary="Added all files for source code for Assignment 3">
+      <created>1537759143711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537759143711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2186000" />
+    <option name="totallyTimeSpent" value="5132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -220,11 +216,11 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,18 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/Circles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="408">
+          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -296,8 +282,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/FiveDigitPalindrome">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="451">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment 3 - Selection Structures/Source/IncomeTax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
