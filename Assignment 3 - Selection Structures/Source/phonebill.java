@@ -53,27 +53,24 @@ public class phonebill
 		{
 			System.out.print("Please input used minutes: ");
 			int mins = sc.nextInt();
-			
-			if (mins < 50)
-			{
-				double svc_fee = 15.00;
+			double svc_fee = 15.00;
+
+			if (mins < 50) {
 				System.out.println();
 				System.out.println("Account Number: " + acct);
 				System.out.println("Service Type: Regular");
-				if (mins < 50)
+				if (mins < 50) {
 					System.out.println("Total Minutes: " + mins);
-				else if (mins > 50)
-				{
-					System.out.println("Total Minutes: " + mins);
-					mins = mins - 50;
-					svc_fee = svc_fee + ((double)mins * .5);
-				}	
+					System.out.println("Amount due: $" + svc_fee);
+				}
+			} else if (mins > 50) {
+				System.out.println("Total Minutes: " + mins);
+				mins = mins - 50;
+				svc_fee = svc_fee + ((double) mins * .5);
+				System.out.println("Amount due: $" + svc_fee);
 			}
 		}
-		else 
-		{
-			System.out.println("Please input a valid service code.");
-		}
-		System.out.print("That's all for now folks");
-	}
-}
+			else
+			   System.out.println("Please input a valid service code.");
+	   }
+   }
