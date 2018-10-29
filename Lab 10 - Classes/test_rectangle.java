@@ -10,6 +10,8 @@ class Test_Rectangles{
         System.out.printf("Width: %g\n", rect1.getWidth());
         System.out.printf("Area: %g\n", rect1.getArea());
         System.out.printf("Perimeter: %g\n", rect1.getPerimeter());
+        
+        System.out.println();
 
         // prints out second rectangle
         System.out.printf("Second object:\n");
