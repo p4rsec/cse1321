@@ -4,6 +4,8 @@
 // Name: Seth Beckman
 // Lab#: 12
 
+import java.util.*;
+import java.io.*;
 class ArrayMethods{
    private static int arrayMax(int[] arr){
       int i = 0;
@@ -12,7 +14,7 @@ class ArrayMethods{
       while(i<arr.length){
          if(arr[i] > max)
             max = arr[i];
-         i++   
+         i++;   
       }
       return max;
    }
@@ -24,9 +26,9 @@ class ArrayMethods{
       while(i<arr.length){
          if(arr[i]<min)
             min = arr[i];
-         i++   
+         i++;   
       }
-      return arr;
+      return min;
    }
    
    private static void arraySquared(int[] arr){
@@ -38,9 +40,9 @@ class ArrayMethods{
       }
       for(int i=0;i<arr.length;i++){
          if(i == (arr.length-1))
-            System.out.print("%d\n",arr[i]);
+            System.out.printf("%d\n",arr[i]);
          else
-            System.out.print("%d, ",arr[i]);
+            System.out.printf("%d, ",arr[i]);
       }
    }
    
@@ -52,9 +54,9 @@ class ArrayMethods{
       }
       for(int i=0;i<arr.length;i++){
          if(i == (arr.length-1))
-            System.out.print("%d\n",arr[i]);
+            System.out.printf("%d\n",arr[i]);
          else
-            System.out.print("%d, ",arr[i]);
+            System.out.printf("%d, ",arr[i]);
       }
    }
    
@@ -67,6 +69,22 @@ class ArrayMethods{
       Random rand = new Random(epoch);
       while(i<arr.length){
          arr[i] = rand.nextInt((max - min) + 1) + min;
+         i++;
       }
+      
+      System.out.printf("Array: ");
+      for(i=0;i<arr.length;i++){
+            if(i == (arr.length-1)){
+               System.out.printf("%d\n",arr[i]);
+            }
+            
+            else
+               System.out.printf("%d, ",arr[i]);
+      }
+      
+      System.out.printf("Maximum: %d\n", arrayMax(arr));
+      System.out.printf("Minimum: %d\n", arrayMin(arr));
+      arraySquared(arr);
+      arrayReverse(arr);
    }
 }
