@@ -1,0 +1,63 @@
+Program 1: 
+
+CLASS Occurences{
+	METHOD Count(){
+		for(int i=0;i<arr.length;i++){
+			int count = 0
+			int num = a[i]
+			for(int n=0;n<arr.length;n++){
+				if(a[n]==num)
+					count++	
+			}
+			printf("%d occurred %d times\n",a[i],count)	
+		}	
+	}	
+
+	METHOD main(){
+		integer array arr[10];
+		print "please enter 10 integers"
+		for(INT i = 0;i<10;i++){
+			int num = getInput()
+			arr[i] = num
+		}
+		Count(arr);
+	}	
+}	
+
+Program 2:
+
+CLASS IndexOfLargest{
+	METHOD findIndex(arr){
+		INT i = 0;
+		INT index = 0;
+		WHILE(i < arr.length){
+			IF(arr[i] < index)
+				index = arr[i]
+			ELSE
+				i++	
+		}	
+		return index;
+	}
+	
+	METHOD main(){
+		integer array arr[10];
+		print "please enter 10 integers"
+		for(INT i = 0;i<10;i++){
+			int num = getInput()
+			arr[i] = num
+		}
+		print "The index of the largest value is %d",findIndex(arr)	
+	}		
+}	
+
+Program 3:
+
+DNC
+
+Program 4:
+
+DNC
+
+Program 5:
+
+DNC
