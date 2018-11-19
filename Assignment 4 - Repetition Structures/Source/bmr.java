@@ -66,7 +66,7 @@ public class bmr
                 break;
         }
 
-        System.out.printf("%d, %d\", %d lbs, Age %d, BMR: %f, Exercise %d, DCA(Daily KCal): %f"
+        System.out.printf("%c, %d]\", %d lbs, Age %d, BMR: %f, Exercise %d, DCA(Daily KCal): %f"
                 , sex, height, weight, age, bmr, exercise, kcal);
     }
 }
